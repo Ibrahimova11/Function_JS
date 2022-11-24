@@ -1,0 +1,69 @@
+.app__nav {
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.app__nav .app__nav__left {
+  display: flex;
+  align-items: center;
+}
+.app__nav .app__nav__left .app__nav__left__item {
+  display: flex;
+  align-items: center;
+  color: rgb(80, 77, 77);
+}
+.app__nav__left__item .app__nav .app__nav__left:first-child {
+  margin: 0px 10px;
+}
+.app__nav .app__nav__left .app__nav__left__item span {
+  font-size: 22px;
+  color: rgb(114, 109, 109);
+}
+.app__nav__left__item .app__nav .app__nav__left:nth-child(2) {
+  margin-right: 10px;
+}
+.app__nav .app__nav__right {
+  align-items: center;
+  display: flex;
+}
+.app__nav .app__nav__right .app__nav__right__item {
+  margin: 0px 10px;
+  color: rgb(102, 97, 97);
+}
+.app__nav .app__nav__right .app__nav__right__item img {
+  width: 30px;
+  height: 30px;
+  border-radius: 20%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.app__nav__right__item .app__nav .app__nav__right:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.app__body__top {
+  margin-top: 20px;
+}
+
+.app__body__top button {
+  color: #2962ff;
+  padding: 10px;
+  border: 2px;
+  background-color: white;
+  font-size: 16px;
+  transition: 0.3s linear;
+}
+
+.app__body__top button:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: darkblue;
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+
+
